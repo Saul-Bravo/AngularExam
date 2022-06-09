@@ -1,0 +1,9 @@
+<div id="container">
+    <h2 id="title">Registered Users</h2>
+    <ul>
+        <li *ngFor="let item of users">
+            <h5>Name: {{ item.name }}</h5>
+            <h6>Level: {{ item.level }}</h6>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,9 @@
+<div id="container">
+    <h2 id="title">Registered Customers</h2>
+    <ul>
+        <li *ngFor="let item of customers">
+            <h5>Name: {{ item.name }}</h5>
+            <h6>Phone number: {{ item.phone }}</h6>
+        </li>
+    </ul>
+</div>
